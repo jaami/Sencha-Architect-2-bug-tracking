@@ -1,0 +1,17 @@
+{
+    "id": "ExtBox1-ext-gen63058",
+    "type": "datamodel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "OtherInsurance",
+        "designer|userAlias": "OtherInsurance"
+    },
+    "customConfigs": [],
+    "designerId": "b11f4061-51bf-4e56-92b3-2942b93bbe36",
+    "$viewOrder": 17,
+    "expanded": true
+}

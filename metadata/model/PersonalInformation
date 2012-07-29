@@ -1,0 +1,17 @@
+{
+    "id": "ExtBox1-ext-gen14426",
+    "type": "datamodel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "PersonalInformation",
+        "designer|userAlias": "PersonalInformation"
+    },
+    "customConfigs": [],
+    "designerId": "9a127df6-7b9b-4f58-b858-f3297e66fe51",
+    "$viewOrder": 23,
+    "expanded": true
+}

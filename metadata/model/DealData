@@ -1,0 +1,17 @@
+{
+    "id": "ExtBox1-ext-gen35232",
+    "type": "datamodel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "DealData",
+        "designer|userAlias": "DealData"
+    },
+    "customConfigs": [],
+    "designerId": "5f5474a2-8908-47a2-91ac-5eb1da76a25d",
+    "$viewOrder": 16,
+    "expanded": true
+}

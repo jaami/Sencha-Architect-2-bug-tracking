@@ -1,0 +1,17 @@
+{
+    "id": "ExtBox1-ext-gen19941",
+    "type": "datamodel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "CCIPremium",
+        "designer|userAlias": "CCIPremium"
+    },
+    "customConfigs": [],
+    "designerId": "06531777-99f6-420f-8534-8044b9e81893",
+    "$viewOrder": 10,
+    "expanded": true
+}

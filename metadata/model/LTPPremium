@@ -1,0 +1,17 @@
+{
+    "id": "ExtBox1-ext-gen14833",
+    "type": "datamodel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "LTPPremium",
+        "designer|userAlias": "LTPPremium"
+    },
+    "customConfigs": [],
+    "designerId": "9263d1d9-9fb9-4bb3-a49f-6dd2a3862b0f",
+    "$viewOrder": 6,
+    "expanded": true
+}

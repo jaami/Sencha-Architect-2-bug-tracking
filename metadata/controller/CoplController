@@ -1,0 +1,175 @@
+{
+    "id": "ExtBox1-ext-gen5243",
+    "type": "controller",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "CoplController",
+        "designer|userAlias": "CoplController"
+    },
+    "customConfigs": [],
+    "designerId": "63821fc2-80fd-4e24-9017-f47838ca9381",
+    "$viewOrder": 0,
+    "expanded": false,
+    "cn": [
+        {
+            "id": "ExtBox1-ext-gen5689",
+            "type": "controllerref",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "ref": "mainScreen",
+                "selector": "MainScreen",
+                "designer|userClassName": "mainScreen"
+            },
+            "customConfigs": [],
+            "expanded": true
+        },
+        {
+            "id": "ExtBox1-ext-gen5906",
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onNewQuoteTap",
+                "implHandler": [
+                    "Ext.Viewport.setActiveItem({xtype: 'MainScreen',plugins: 'swipetabs' });"
+                ],
+                "name": "tap",
+                "designer|targetType": "Ext.Button",
+                "designer|controlQuery": "button[action=NewQuoteAction]",
+                "designer|userClassName": "onNewQuoteTap"
+            },
+            "customConfigs": [],
+            "expanded": true
+        },
+        {
+            "id": "ExtBox1-ext-gen10798",
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onOpenQuoteTap",
+                "designer|params": [
+                    "formpanel"
+                ],
+                "implHandler": [
+                    "Ext.Viewport.setActiveItem({xtype: 'MainScreen',plugins: 'swipetabs'});"
+                ],
+                "name": "tap",
+                "designer|targetType": "AfterMarket",
+                "designer|controlQuery": "button[action=OpenQuoteAction]",
+                "designer|userClassName": "onOpenQuoteTap"
+            },
+            "customConfigs": [],
+            "expanded": true
+        },
+        {
+            "id": "ExtBox1-ext-gen12752",
+            "type": "controllerref",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "ref": "mainScreenComponent",
+                "selector": "MainScreenComponent",
+                "designer|userClassName": "mainScreenComponent"
+            },
+            "customConfigs": [],
+            "expanded": true
+        },
+        {
+            "id": "ExtBox1-ext-gen14462",
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onCancelTap",
+                "implHandler": [
+                    "Ext.Viewport.setActiveItem({xtype: 'MainScreenComponent'});"
+                ],
+                "name": "tap",
+                "designer|targetType": "Ext.Button",
+                "designer|controlQuery": "button[action=CancelAction]",
+                "designer|userClassName": "onCancelTap"
+            },
+            "customConfigs": [],
+            "expanded": true
+        },
+        {
+            "id": "ExtBox1-ext-gen32599",
+            "type": "controllerref",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "ref": "loginForm",
+                "selector": "LoginForm",
+                "designer|userClassName": "loginForm"
+            },
+            "customConfigs": [],
+            "expanded": true
+        },
+        {
+            "id": "ExtBox1-ext-gen33220",
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onLoginTap",
+                "implHandler": [
+                    "Ext.Viewport.setActiveItem({xtype: 'MainScreenComponent'});"
+                ],
+                "name": "tap",
+                "designer|targetType": "Ext.Button",
+                "designer|controlQuery": "button[action=LoginAction]",
+                "designer|userClassName": "onLoginTap"
+            },
+            "customConfigs": [],
+            "expanded": true
+        },
+        {
+            "id": "ExtBox1-ext-gen36075",
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onLogoutTap",
+                "implHandler": [
+                    "Ext.Viewport.setActiveItem({xtype: 'LoginForm'});"
+                ],
+                "name": "tap",
+                "designer|targetType": "Ext.Button",
+                "designer|controlQuery": "button[action=LogoutAction]",
+                "designer|userClassName": "onLogoutTap"
+            },
+            "customConfigs": [],
+            "expanded": true
+        }
+    ]
+}

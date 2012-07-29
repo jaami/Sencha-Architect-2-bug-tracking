@@ -1,0 +1,2484 @@
+{
+    "id": "ExtBox1-ext-gen55653",
+    "type": "formpanel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "id": null,
+        "itemId": null,
+        "ui": "light",
+        "designer|userClassName": "Finance",
+        "designer|userAlias": "finance",
+        "iconCls": "finance",
+        "iconMask": "true",
+        "title": "Finance",
+        "action": null
+    },
+    "customConfigs": [
+        {
+            "group": "(Custom Properties)",
+            "name": "iconCls",
+            "type": "string"
+        },
+        {
+            "group": "(Custom Properties)",
+            "name": "iconMask",
+            "type": "string"
+        },
+        {
+            "group": "(Custom Properties)",
+            "name": "title",
+            "type": "string"
+        },
+        {
+            "group": "(Custom Properties)",
+            "name": "action",
+            "type": "string"
+        }
+    ],
+    "designerId": "a496fc03-561b-42b2-bf5d-5f7543b0e2a5",
+    "$viewOrder": 3,
+    "expanded": false,
+    "cn": [
+        {
+            "id": "ExtBox1-ext-gen58345",
+            "type": "toolbar",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "docked": "top",
+                "height": 80,
+                "ui": "light",
+                "title": "",
+                "designer|userClassName": "MyToolbar"
+            },
+            "customConfigs": [],
+            "expanded": false,
+            "cn": [
+                {
+                    "id": "ExtBox1-ext-gen58349",
+                    "type": "label",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "height": 31,
+                        "html": "Finance",
+                        "padding": 5,
+                        "width": 113,
+                        "designer|userClassName": "MyLabel"
+                    },
+                    "customConfigs": [],
+                    "expanded": true
+                },
+                {
+                    "id": "ExtBox1-ext-gen58354",
+                    "type": "button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "docked": "right",
+                        "width": 105,
+                        "icon": "images/cancel.png",
+                        "iconCls": "cancel",
+                        "text": "Cancel",
+                        "designer|userClassName": "MyButton",
+                        "action": "CancelAction"
+                    },
+                    "customConfigs": [
+                        {
+                            "group": "(Custom Properties)",
+                            "name": "action",
+                            "type": "string"
+                        }
+                    ],
+                    "expanded": true
+                },
+                {
+                    "id": "ExtBox1-ext-gen58359",
+                    "type": "button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "docked": "right",
+                        "width": 86,
+                        "icon": "images/save.png",
+                        "iconCls": "save",
+                        "text": "Save",
+                        "designer|userClassName": "MyButton1"
+                    },
+                    "customConfigs": [],
+                    "expanded": true
+                },
+                {
+                    "id": "ExtBox1-ext-gen58364",
+                    "type": "button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "docked": "right",
+                        "width": 85,
+                        "icon": "images/print.png",
+                        "iconCls": "print",
+                        "text": "Print",
+                        "designer|userClassName": "MyButton2"
+                    },
+                    "customConfigs": [],
+                    "expanded": true
+                },
+                {
+                    "id": "ExtBox1-ext-gen58369",
+                    "type": "button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "docked": "right",
+                        "width": 86,
+                        "icon": "images/next1.png",
+                        "text": "",
+                        "designer|userClassName": "MyButton3"
+                    },
+                    "customConfigs": [],
+                    "expanded": true
+                }
+            ]
+        },
+        {
+            "id": "ExtBox1-ext-gen72669",
+            "type": "panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "height": 45,
+                "designer|userClassName": "MyPanel4"
+            },
+            "customConfigs": [],
+            "expanded": false,
+            "cn": [
+                {
+                    "id": "ExtBox1-ext-gen72990",
+                    "type": "selectfield",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "cls": [
+                            "normalRoundCorner"
+                        ],
+                        "docked": "left",
+                        "height": 45,
+                        "id": "financier",
+                        "itemId": "financier",
+                        "width": 329,
+                        "inputCls": "textBlack",
+                        "label": "Financier:",
+                        "labelCls": "normalLabelText",
+                        "labelWidth": "35%",
+                        "options": "[\n{value:\"null\",text:\"Select\"},\n{value:\"ANZ\",text:\"ANZ Banking group ltd.\"}\n]\n\n",
+                        "designer|userClassName": "MySelectField"
+                    },
+                    "customConfigs": [],
+                    "expanded": true
+                },
+                {
+                    "id": "ExtBox1-ext-gen75511",
+                    "type": "spacer",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "docked": "left",
+                        "width": 8,
+                        "designer|userClassName": "MySpacer65"
+                    },
+                    "customConfigs": [],
+                    "expanded": true
+                },
+                {
+                    "id": "ExtBox1-ext-gen74650",
+                    "type": "label",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "docked": "left",
+                        "height": 45,
+                        "html": "Stamp Duty State:",
+                        "width": 153,
+                        "designer|userClassName": "MyLabel77"
+                    },
+                    "customConfigs": [],
+                    "expanded": true
+                },
+                {
+                    "id": "ExtBox1-ext-gen77054",
+                    "type": "label",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "docked": "left",
+                        "height": 45,
+                        "html": "NSW",
+                        "width": 57,
+                        "designer|userClassName": "MyLabel77"
+                    },
+                    "customConfigs": [],
+                    "expanded": true
+                },
+                {
+                    "id": "ExtBox1-ext-gen78432",
+                    "type": "label",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "docked": "left",
+                        "height": 45,
+                        "html": "RT:",
+                        "width": 44,
+                        "designer|userClassName": "MyLabel77"
+                    },
+                    "customConfigs": [],
+                    "expanded": true
+                },
+                {
+                    "id": "ExtBox1-ext-gen78922",
+                    "type": "label",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "docked": "left",
+                        "height": 45,
+                        "html": 10.45,
+                        "width": 57,
+                        "designer|userClassName": "MyLabel77"
+                    },
+                    "customConfigs": [],
+                    "expanded": true
+                },
+                {
+                    "id": "ExtBox1-ext-gen80210",
+                    "type": "spacer",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "docked": "left",
+                        "height": 19,
+                        "width": 10,
+                        "designer|userClassName": "MySpacer66"
+                    },
+                    "customConfigs": [],
+                    "expanded": true
+                },
+                {
+                    "id": "ExtBox1-ext-gen81309",
+                    "type": "image",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "docked": "left",
+                        "height": 25,
+                        "width": 71,
+                        "src": "images/statusfalse.png",
+                        "designer|userClassName": "MyImage16"
+                    },
+                    "customConfigs": [],
+                    "expanded": true
+                }
+            ]
+        },
+        {
+            "id": "ExtBox1-ext-gen25422",
+            "type": "container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "height": 5,
+                "designer|userClassName": "MyContainer37"
+            },
+            "customConfigs": [],
+            "expanded": true
+        },
+        {
+            "id": "ExtBox1-ext-gen84156",
+            "type": "panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "height": 45,
+                "designer|userClassName": "MyPanel4"
+            },
+            "customConfigs": [],
+            "expanded": false,
+            "cn": [
+                {
+                    "id": "ExtBox1-ext-gen84164",
+                    "type": "spacer",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "docked": "left",
+                        "height": 45,
+                        "width": 331,
+                        "designer|userClassName": "MySpacer65"
+                    },
+                    "customConfigs": [],
+                    "expanded": true
+                },
+                {
+                    "id": "ExtBox1-ext-gen84168",
+                    "type": "label",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "docked": "left",
+                        "height": 45,
+                        "html": "From:",
+                        "width": 66,
+                        "designer|userClassName": "MyLabel77"
+                    },
+                    "customConfigs": [],
+                    "expanded": true
+                },
+                {
+                    "id": "ExtBox1-ext-gen84172",
+                    "type": "label",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "docked": "left",
+                        "height": 45,
+                        "html": "06/06/2012",
+                        "width": 113,
+                        "designer|userClassName": "MyLabel77"
+                    },
+                    "customConfigs": [],
+                    "expanded": true
+                },
+                {
+                    "id": "ExtBox1-ext-gen84176",
+                    "type": "label",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "docked": "left",
+                        "height": 45,
+                        "html": "To:",
+                        "width": 44,
+                        "designer|userClassName": "MyLabel77"
+                    },
+                    "customConfigs": [],
+                    "expanded": true
+                },
+                {
+                    "id": "ExtBox1-ext-gen84180",
+                    "type": "label",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "docked": "left",
+                        "height": 45,
+                        "html": "05/06/2015",
+                        "width": 110,
+                        "designer|userClassName": "MyLabel77"
+                    },
+                    "customConfigs": [],
+                    "expanded": true
+                }
+            ]
+        },
+        {
+            "id": "ExtBox1-ext-gen89449",
+            "type": "panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "height": 45,
+                "designer|userClassName": "MyPanel4"
+            },
+            "customConfigs": [],
+            "expanded": false,
+            "cn": [
+                {
+                    "id": "ExtBox1-ext-gen102372",
+                    "type": "radiofield",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "cls": [
+                            "normalRoundCorner"
+                        ],
+                        "docked": "left",
+                        "height": 45,
+                        "id": "rdRegulated",
+                        "itemId": "myradiobutton27",
+                        "width": 140,
+                        "inputCls": "textBlack",
+                        "label": "Regulated",
+                        "labelAlign": "right",
+                        "labelCls": "normalLabelTextRadio",
+                        "labelWidth": "67%",
+                        "name": "productType",
+                        "value": "R",
+                        "checked": true,
+                        "designer|userClassName": "MyRadioButton1"
+                    },
+                    "customConfigs": [],
+                    "expanded": false,
+                    "cn": [
+                        {
+                            "id": "ExtBox1-ext-gen25084",
+                            "type": "basiceventbinding",
+                            "reference": {
+                                "name": "listeners",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fn": "onRdRegulatedCheck",
+                                "implHandler": [
+                                    "Ext.getCmp(\"rdAdvance\").setHidden(false);\r",
+                                    "Ext.getCmp(\"rdArrear\").setHidden(false);\r",
+                                    "\r",
+                                    "Ext.getCmp(\"rdAdvance\").setDisabled(true);\r",
+                                    "Ext.getCmp(\"rdArrear\").setDisabled(true);\r",
+                                    "Ext.getCmp(\"rdArrear\").setChecked(true);"
+                                ],
+                                "name": "check",
+                                "designer|userClassName": "onRdRegulatedCheck"
+                            },
+                            "customConfigs": [],
+                            "expanded": true
+                        }
+                    ]
+                },
+                {
+                    "id": "ExtBox1-ext-gen101769",
+                    "type": "radiofield",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "cls": [
+                            "normalRoundCorner"
+                        ],
+                        "docked": "left",
+                        "height": 45,
+                        "itemId": "rdHirePurchase",
+                        "width": 150,
+                        "inputCls": "textBlack",
+                        "label": "Hire Purchase",
+                        "labelAlign": "right",
+                        "labelCls": "normalLabelTextRadio",
+                        "labelWidth": "67%",
+                        "name": "productType",
+                        "value": "H",
+                        "designer|userClassName": "MyRadioButton"
+                    },
+                    "customConfigs": [],
+                    "expanded": true,
+                    "cn": [
+                        {
+                            "id": "ExtBox1-ext-gen8642",
+                            "type": "basiceventbinding",
+                            "reference": {
+                                "name": "listeners",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fn": "onHirePurchaseHandler",
+                                "implHandler": [
+                                    "                          \r",
+                                    "//Ext.Msg.alert('getGroupValue()', this.getValues().productType);\r",
+                                    "\r",
+                                    "Ext.getCmp(\"rdAdvance\").setHidden(false);\r",
+                                    "Ext.getCmp(\"rdArrear\").setHidden(false);\r",
+                                    "\r",
+                                    "Ext.getCmp(\"rdAdvance\").setDisabled(false);\r",
+                                    "Ext.getCmp(\"rdArrear\").setDisabled(false);\r",
+                                    "Ext.getCmp(\"rdArrear\").setChecked(true);\r",
+                                    "\r",
+                                    ""
+                                ],
+                                "name": "check",
+                                "designer|userClassName": "onHirePurchaseHandler"
+                            },
+                            "customConfigs": [],
+                            "expanded": true
+                        }
+                    ]
+                },
+                {
+                    "id": "ExtBox1-ext-gen111915",
+                    "type": "radiofield",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "cls": [
+                            "normalRoundCorner"
+                        ],
+                        "docked": "left",
+                        "height": 45,
+                        "id": "rdLease",
+                        "itemId": "myradiobutton29",
+                        "width": 109,
+                        "inputCls": "textBlack",
+                        "label": "Lease",
+                        "labelAlign": "right",
+                        "labelCls": "normalLabelTextRadio",
+                        "labelWidth": "65%",
+                        "name": "productType",
+                        "value": "L",
+                        "designer|userClassName": "MyRadioButton"
+                    },
+                    "customConfigs": [],
+                    "expanded": true,
+                    "cn": [
+                        {
+                            "id": "ExtBox1-ext-gen26945",
+                            "type": "basiceventbinding",
+                            "reference": {
+                                "name": "listeners",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fn": "onRdLeaseCheck",
+                                "implHandler": [
+                                    "Ext.getCmp(\"rdAdvance\").setHidden(false);\r",
+                                    "Ext.getCmp(\"rdArrear\").setHidden(false);\r",
+                                    "\r",
+                                    "Ext.getCmp(\"rdAdvance\").setDisabled(false);\r",
+                                    "Ext.getCmp(\"rdArrear\").setDisabled(false);\r",
+                                    "Ext.getCmp(\"rdAdvance\").setChecked(true);"
+                                ],
+                                "name": "check",
+                                "designer|userClassName": "onRdLeaseCheck"
+                            },
+                            "customConfigs": [],
+                            "expanded": true
+                        }
+                    ]
+                },
+                {
+                    "id": "ExtBox1-ext-gen112455",
+                    "type": "radiofield",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "cls": [
+                            "normalRoundCorner"
+                        ],
+                        "docked": "left",
+                        "height": 45,
+                        "id": "rdChattalMortgage",
+                        "itemId": "myradiobutton30",
+                        "width": 204,
+                        "inputCls": "textBlack",
+                        "label": "Chattel Mortgage",
+                        "labelAlign": "right",
+                        "labelCls": "normalLabelTextRadio",
+                        "labelWidth": "75%",
+                        "name": "productType",
+                        "value": "M",
+                        "designer|userClassName": "MyRadioButton"
+                    },
+                    "customConfigs": [],
+                    "expanded": true,
+                    "cn": [
+                        {
+                            "id": "ExtBox1-ext-gen27718",
+                            "type": "basiceventbinding",
+                            "reference": {
+                                "name": "listeners",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fn": "onRdChattalMortgageCheck",
+                                "implHandler": [
+                                    "Ext.getCmp(\"rdAdvance\").setHidden(false);\r",
+                                    "Ext.getCmp(\"rdArrear\").setHidden(false);\r",
+                                    "\r",
+                                    "\r",
+                                    "Ext.getCmp(\"rdAdvance\").setDisabled(false);\r",
+                                    "Ext.getCmp(\"rdArrear\").setDisabled(false);\r",
+                                    "Ext.getCmp(\"rdArrear\").setChecked(true);"
+                                ],
+                                "name": "check",
+                                "designer|userClassName": "onRdChattalMortgageCheck"
+                            },
+                            "customConfigs": [],
+                            "expanded": true
+                        }
+                    ]
+                },
+                {
+                    "id": "ExtBox1-ext-gen113000",
+                    "type": "radiofield",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "cls": [
+                            "normalRoundCorner"
+                        ],
+                        "docked": "left",
+                        "height": 45,
+                        "id": "rdCashDeal",
+                        "itemId": "myradiobutton31",
+                        "width": 142,
+                        "inputCls": "textBlack",
+                        "label": "Cash Deal",
+                        "labelAlign": "right",
+                        "labelCls": "normalLabelTextRadio",
+                        "labelWidth": "68%",
+                        "name": "productType",
+                        "value": "C",
+                        "designer|userClassName": "MyRadioButton"
+                    },
+                    "customConfigs": [],
+                    "expanded": true,
+                    "cn": [
+                        {
+                            "id": "ExtBox1-ext-gen28390",
+                            "type": "basiceventbinding",
+                            "reference": {
+                                "name": "listeners",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fn": "onRdCashDealCheck",
+                                "implHandler": [
+                                    "\r",
+                                    "Ext.getCmp(\"rdAdvance\").setHidden(true);\r",
+                                    "Ext.getCmp(\"rdArrear\").setHidden(true);\r",
+                                    "\r",
+                                    "Ext.getCmp(\"rdAdvance\").setChecked(false);\r",
+                                    "Ext.getCmp(\"rdArrear\").setChecked(false);"
+                                ],
+                                "name": "check",
+                                "designer|userClassName": "onRdCashDealCheck"
+                            },
+                            "customConfigs": [],
+                            "expanded": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ExtBox1-ext-gen123956",
+            "type": "container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "height": 5,
+                "designer|userClassName": "MyContainer37"
+            },
+            "customConfigs": [],
+            "expanded": true
+        },
+        {
+            "id": "ExtBox1-ext-gen113677",
+            "type": "panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "height": 45,
+                "designer|userClassName": "MyPanel4"
+            },
+            "customConfigs": [],
+            "expanded": false,
+            "cn": [
+                {
+                    "id": "ExtBox1-ext-gen113681",
+                    "type": "radiofield",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "cls": [
+                            "normalRoundCorner"
+                        ],
+                        "disabled": true,
+                        "docked": "left",
+                        "height": 45,
+                        "id": "rdAdvance",
+                        "width": 140,
+                        "inputCls": "textBlack",
+                        "label": "Advance",
+                        "labelAlign": "right",
+                        "labelCls": "normalLabelTextRadio",
+                        "labelWidth": "70%",
+                        "name": "advanceareargroup",
+                        "checked": true,
+                        "designer|userClassName": "MyRadioButton1"
+                    },
+                    "customConfigs": [],
+                    "expanded": true
+                },
+                {
+                    "id": "ExtBox1-ext-gen113685",
+                    "type": "radiofield",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "cls": [
+                            "normalRoundCorner"
+                        ],
+                        "disabled": true,
+                        "docked": "left",
+                        "height": 45,
+                        "id": "rdArrear",
+                        "width": 137,
+                        "inputCls": "textBlack",
+                        "label": "Arrear",
+                        "labelAlign": "right",
+                        "labelCls": "normalLabelTextRadio",
+                        "labelWidth": "70%",
+                        "name": "advanceareargroup",
+                        "checked": true,
+                        "designer|userClassName": "MyRadioButton"
+                    },
+                    "customConfigs": [],
+                    "expanded": true
+                },
+                {
+                    "id": "ExtBox1-ext-gen114939",
+                    "type": "spacer",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "docked": "left",
+                        "width": 10,
+                        "designer|userClassName": "MySpacer99"
+                    },
+                    "customConfigs": [],
+                    "expanded": true
+                },
+                {
+                    "id": "ExtBox1-ext-gen118112",
+                    "type": "label",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "docked": "left",
+                        "html": "Asset Condition:",
+                        "padding": 5,
+                        "width": 165,
+                        "designer|userClassName": "MyLabel117"
+                    },
+                    "customConfigs": [],
+                    "expanded": true
+                },
+                {
+                    "id": "ExtBox1-ext-gen113693",
+                    "type": "radiofield",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "cls": [
+                            "normalRoundCorner"
+                        ],
+                        "docked": "left",
+                        "id": "rdNew",
+                        "width": 151,
+                        "inputCls": "textBlack",
+                        "label": "New",
+                        "labelAlign": "right",
+                        "labelCls": "normalLabelTextRadio",
+                        "labelWidth": "60%",
+                        "name": "assetconditiongroup",
+                        "checked": true,
+                        "designer|userClassName": "MyRadioButton"
+                    },
+                    "customConfigs": [],
+                    "expanded": true
+                },
+                {
+                    "id": "ExtBox1-ext-gen113697",
+                    "type": "radiofield",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "cls": [
+                            "normalRoundCorner"
+                        ],
+                        "docked": "left",
+                        "id": "rdUsed",
+                        "width": 142,
+                        "inputCls": "textBlack",
+                        "label": "Used",
+                        "labelAlign": "right",
+                        "labelCls": "normalLabelTextRadio",
+                        "labelWidth": "60%",
+                        "name": "assetconditiongroup",
+                        "designer|userClassName": "MyRadioButton"
+                    },
+                    "customConfigs": [],
+                    "expanded": true
+                }
+            ]
+        },
+        {
+            "id": "ExtBox1-ext-gen128136",
+            "type": "container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "height": 5,
+                "designer|userClassName": "MyContainer37"
+            },
+            "customConfigs": [],
+            "expanded": true
+        },
+        {
+            "id": "ExtBox1-ext-gen18482",
+            "type": "panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "cls": [
+                    "contentBG"
+                ],
+                "height": 200,
+                "id": "assetPriceDetail",
+                "padding": "",
+                "top": null,
+                "designer|userClassName": "MyPanel35"
+            },
+            "customConfigs": [],
+            "expanded": false,
+            "cn": [
+                {
+                    "id": "ExtBox1-ext-gen73669",
+                    "type": "toolbar",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "cls": [
+                            "topRoundCorners"
+                        ],
+                        "docked": "top",
+                        "ui": "light",
+                        "width": "100%",
+                        "designer|userClassName": "MyToolbar"
+                    },
+                    "customConfigs": [],
+                    "expanded": false,
+                    "cn": [
+                        {
+                            "id": "ExtBox1-ext-gen73673",
+                            "type": "label",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "height": 31,
+                                "html": "Asset Price(s) Inclusive GST and LCT",
+                                "padding": 5,
+                                "width": 369,
+                                "designer|userClassName": "MyLabel"
+                            },
+                            "customConfigs": [],
+                            "expanded": true
+                        }
+                    ]
+                },
+                {
+                    "id": "ExtBox1-ext-gen92132",
+                    "type": "container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "height": 5,
+                        "designer|userClassName": "MyContainer62"
+                    },
+                    "customConfigs": [],
+                    "expanded": true
+                },
+                {
+                    "id": "ExtBox1-ext-gen46682",
+                    "type": "container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "height": 45,
+                        "width": 740,
+                        "designer|userClassName": "MyContainer58"
+                    },
+                    "customConfigs": [],
+                    "expanded": false,
+                    "cn": [
+                        {
+                            "id": "ExtBox1-ext-gen68872",
+                            "type": "numberfield",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "cls": [
+                                    "normalRoundCorner"
+                                ],
+                                "docked": "left",
+                                "height": 45,
+                                "width": 319,
+                                "inputCls": "textBlack",
+                                "label": "Retail Price:",
+                                "labelCls": "normalLabelText",
+                                "labelWidth": "40%",
+                                "designer|userClassName": "MyNumberField20"
+                            },
+                            "customConfigs": [],
+                            "expanded": true
+                        },
+                        {
+                            "id": "ExtBox1-ext-gen71428",
+                            "type": "spacer",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "docked": "left",
+                                "height": 24,
+                                "width": 40,
+                                "designer|userClassName": "MySpacer112"
+                            },
+                            "customConfigs": [],
+                            "expanded": true
+                        },
+                        {
+                            "id": "ExtBox1-ext-gen69512",
+                            "type": "numberfield",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "cls": [
+                                    "normalRoundCorner"
+                                ],
+                                "docked": "left",
+                                "height": 45,
+                                "inputCls": "textBlack",
+                                "label": "Delivery Charges:",
+                                "labelCls": "normalLabelText",
+                                "labelWidth": "45%",
+                                "designer|userClassName": "MyNumberField21"
+                            },
+                            "customConfigs": [],
+                            "expanded": true
+                        }
+                    ]
+                },
+                {
+                    "id": "ExtBox1-ext-gen88210",
+                    "type": "container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "height": 5,
+                        "designer|userClassName": "MyContainer62"
+                    },
+                    "customConfigs": [],
+                    "expanded": true
+                },
+                {
+                    "id": "ExtBox1-ext-gen83283",
+                    "type": "container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "height": 45,
+                        "designer|userClassName": "MyContainer58"
+                    },
+                    "customConfigs": [],
+                    "expanded": false,
+                    "cn": [
+                        {
+                            "id": "ExtBox1-ext-gen6256",
+                            "type": "label",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "docked": "left",
+                                "height": 45,
+                                "html": "Accessories:",
+                                "padding": 5,
+                                "width": 113,
+                                "designer|userClassName": "MyLabel120"
+                            },
+                            "customConfigs": [],
+                            "expanded": true
+                        },
+                        {
+                            "id": "ExtBox1-ext-gen8409",
+                            "type": "label",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "docked": "left",
+                                "height": 45,
+                                "html": "0.0 ",
+                                "padding": 5,
+                                "width": 50,
+                                "designer|userClassName": "MyLabel120"
+                            },
+                            "customConfigs": [],
+                            "expanded": true
+                        },
+                        {
+                            "id": "ExtBox1-ext-gen10025",
+                            "type": "button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "docked": "left",
+                                "height": 40,
+                                "width": 48,
+                                "text": "...",
+                                "designer|userClassName": "MyButton63"
+                            },
+                            "customConfigs": [],
+                            "expanded": true
+                        },
+                        {
+                            "id": "ExtBox1-ext-gen83291",
+                            "type": "spacer",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "docked": "left",
+                                "width": 25,
+                                "designer|userClassName": "MySpacer112"
+                            },
+                            "customConfigs": [],
+                            "expanded": true
+                        },
+                        {
+                            "id": "ExtBox1-ext-gen14762",
+                            "type": "checkboxfield",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "cls": [
+                                    "textBlack"
+                                ],
+                                "docked": "left",
+                                "height": 45,
+                                "width": 150,
+                                "label": "Fee",
+                                "labelAlign": "right",
+                                "labelWidth": "70%",
+                                "designer|userClassName": "MyCheckbox3"
+                            },
+                            "customConfigs": [],
+                            "expanded": true
+                        },
+                        {
+                            "id": "ExtBox1-ext-gen18676",
+                            "type": "spacer",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "docked": "left",
+                                "width": 10,
+                                "designer|userClassName": "MySpacer112"
+                            },
+                            "customConfigs": [],
+                            "expanded": true
+                        },
+                        {
+                            "id": "ExtBox1-ext-gen23123",
+                            "type": "label",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "docked": "left",
+                                "height": 45,
+                                "html": "0.0 ",
+                                "padding": 5,
+                                "width": 50,
+                                "designer|userClassName": "MyLabel120"
+                            },
+                            "customConfigs": [],
+                            "expanded": true
+                        },
+                        {
+                            "id": "ExtBox1-ext-gen24961",
+                            "type": "button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "docked": "left",
+                                "height": 40,
+                                "width": 48,
+                                "text": "...",
+                                "designer|userClassName": "MyButton63"
+                            },
+                            "customConfigs": [],
+                            "expanded": true
+                        },
+                        {
+                            "id": "ExtBox1-ext-gen30625",
+                            "type": "spacer",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "docked": "left",
+                                "width": 10,
+                                "designer|userClassName": "MySpacer112"
+                            },
+                            "customConfigs": [],
+                            "expanded": true
+                        },
+                        {
+                            "id": "ExtBox1-ext-gen28782",
+                            "type": "checkboxfield",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "cls": [
+                                    "textBlack"
+                                ],
+                                "docked": "left",
+                                "height": 45,
+                                "width": 181,
+                                "label": "After Market",
+                                "labelAlign": "right",
+                                "labelWidth": "75%",
+                                "designer|userClassName": "MyCheckbox3"
+                            },
+                            "customConfigs": [],
+                            "expanded": true
+                        },
+                        {
+                            "id": "ExtBox1-ext-gen38006",
+                            "type": "spacer",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "docked": "left",
+                                "width": 10,
+                                "designer|userClassName": "MySpacer112"
+                            },
+                            "customConfigs": [],
+                            "expanded": true
+                        },
+                        {
+                            "id": "ExtBox1-ext-gen39855",
+                            "type": "label",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "docked": "left",
+                                "height": 45,
+                                "html": "0.0 ",
+                                "padding": 5,
+                                "width": 50,
+                                "designer|userClassName": "MyLabel120"
+                            },
+                            "customConfigs": [],
+                            "expanded": true
+                        }
+                    ]
+                },
+                {
+                    "id": "ExtBox1-ext-gen89356",
+                    "type": "container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "height": 5,
+                        "designer|userClassName": "MyContainer62"
+                    },
+                    "customConfigs": [],
+                    "expanded": true
+                },
+                {
+                    "id": "ExtBox1-ext-gen42835",
+                    "type": "container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "height": 45,
+                        "designer|userClassName": "MyContainer58"
+                    },
+                    "customConfigs": [],
+                    "expanded": false,
+                    "cn": [
+                        {
+                            "id": "ExtBox1-ext-gen52599",
+                            "type": "checkboxfield",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "cls": [
+                                    "textBlack"
+                                ],
+                                "docked": "left",
+                                "height": 45,
+                                "width": 115,
+                                "label": "On Road",
+                                "labelAlign": "right",
+                                "labelWidth": "70%",
+                                "designer|userClassName": "MyCheckbox3"
+                            },
+                            "customConfigs": [],
+                            "expanded": true
+                        },
+                        {
+                            "id": "ExtBox1-ext-gen42843",
+                            "type": "label",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "docked": "left",
+                                "height": 45,
+                                "html": "0.0 ",
+                                "padding": 5,
+                                "width": 48,
+                                "designer|userClassName": "MyLabel120"
+                            },
+                            "customConfigs": [],
+                            "expanded": true
+                        },
+                        {
+                            "id": "ExtBox1-ext-gen42847",
+                            "type": "button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "docked": "left",
+                                "height": 40,
+                                "width": 48,
+                                "text": "...",
+                                "designer|userClassName": "MyButton63"
+                            },
+                            "customConfigs": [],
+                            "expanded": true
+                        },
+                        {
+                            "id": "ExtBox1-ext-gen42851",
+                            "type": "spacer",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "docked": "left",
+                                "width": 25,
+                                "designer|userClassName": "MySpacer112"
+                            },
+                            "customConfigs": [],
+                            "expanded": true
+                        },
+                        {
+                            "id": "ExtBox1-ext-gen42855",
+                            "type": "checkboxfield",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "cls": [
+                                    "textBlack"
+                                ],
+                                "docked": "left",
+                                "height": 45,
+                                "width": 150,
+                                "label": "Insurance",
+                                "labelAlign": "right",
+                                "labelWidth": "70%",
+                                "designer|userClassName": "MyCheckbox3"
+                            },
+                            "customConfigs": [],
+                            "expanded": true
+                        },
+                        {
+                            "id": "ExtBox1-ext-gen42859",
+                            "type": "spacer",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "docked": "left",
+                                "height": 26,
+                                "width": 10,
+                                "designer|userClassName": "MySpacer112"
+                            },
+                            "customConfigs": [],
+                            "expanded": true
+                        },
+                        {
+                            "id": "ExtBox1-ext-gen42863",
+                            "type": "label",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "docked": "left",
+                                "height": 45,
+                                "html": "0.0 ",
+                                "padding": 5,
+                                "width": 50,
+                                "designer|userClassName": "MyLabel120"
+                            },
+                            "customConfigs": [],
+                            "expanded": true
+                        },
+                        {
+                            "id": "ExtBox1-ext-gen42867",
+                            "type": "button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "docked": "left",
+                                "height": 40,
+                                "width": 48,
+                                "text": "...",
+                                "designer|userClassName": "MyButton63"
+                            },
+                            "customConfigs": [],
+                            "expanded": true
+                        }
+                    ]
+                },
+                {
+                    "id": "ExtBox1-ext-gen90696",
+                    "type": "container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "height": 5,
+                        "designer|userClassName": "MyContainer62"
+                    },
+                    "customConfigs": [],
+                    "expanded": true
+                }
+            ]
+        },
+        {
+            "id": "ExtBox1-ext-gen10073",
+            "type": "container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "height": 1,
+                "designer|userClassName": "MyContainer37"
+            },
+            "customConfigs": [],
+            "expanded": true
+        },
+        {
+            "id": "ExtBox1-ext-gen98334",
+            "type": "panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "cls": [
+                    "contentBG"
+                ],
+                "height": 145,
+                "id": "deposit",
+                "padding": "",
+                "top": null,
+                "designer|userClassName": "MyPanel35"
+            },
+            "customConfigs": [],
+            "expanded": false,
+            "cn": [
+                {
+                    "id": "ExtBox1-ext-gen98338",
+                    "type": "toolbar",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "cls": [
+                            "topRoundCorners"
+                        ],
+                        "docked": "top",
+                        "ui": "light",
+                        "width": "100%",
+                        "designer|userClassName": "MyToolbar"
+                    },
+                    "customConfigs": [],
+                    "expanded": false,
+                    "cn": [
+                        {
+                            "id": "ExtBox1-ext-gen98342",
+                            "type": "label",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "height": 31,
+                                "html": "Deposit",
+                                "padding": 5,
+                                "width": 369,
+                                "designer|userClassName": "MyLabel"
+                            },
+                            "customConfigs": [],
+                            "expanded": true
+                        }
+                    ]
+                },
+                {
+                    "id": "ExtBox1-ext-gen98349",
+                    "type": "container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "height": 5,
+                        "designer|userClassName": "MyContainer62"
+                    },
+                    "customConfigs": [],
+                    "expanded": true
+                },
+                {
+                    "id": "ExtBox1-ext-gen98373",
+                    "type": "container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "height": 45,
+                        "designer|userClassName": "MyContainer58"
+                    },
+                    "customConfigs": [],
+                    "expanded": false,
+                    "cn": [
+                        {
+                            "id": "ExtBox1-ext-gen98377",
+                            "type": "label",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "docked": "left",
+                                "height": 45,
+                                "html": "Trade In:",
+                                "padding": 5,
+                                "width": 128,
+                                "designer|userClassName": "MyLabel120"
+                            },
+                            "customConfigs": [],
+                            "expanded": true
+                        },
+                        {
+                            "id": "ExtBox1-ext-gen98381",
+                            "type": "label",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "docked": "left",
+                                "height": 45,
+                                "html": "0.00 ",
+                                "padding": 5,
+                                "width": 50,
+                                "designer|userClassName": "MyLabel120"
+                            },
+                            "customConfigs": [],
+                            "expanded": true
+                        },
+                        {
+                            "id": "ExtBox1-ext-gen98385",
+                            "type": "button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "docked": "left",
+                                "height": 40,
+                                "width": 48,
+                                "text": "...",
+                                "designer|userClassName": "MyButton63"
+                            },
+                            "customConfigs": [],
+                            "expanded": true
+                        },
+                        {
+                            "id": "ExtBox1-ext-gen98389",
+                            "type": "spacer",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "docked": "left",
+                                "width": 26,
+                                "designer|userClassName": "MySpacer112"
+                            },
+                            "customConfigs": [],
+                            "expanded": true
+                        },
+                        {
+                            "id": "ExtBox1-ext-gen110262",
+                            "type": "numberfield",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "cls": [
+                                    "normalRoundCorner"
+                                ],
+                                "docked": "left",
+                                "height": 45,
+                                "width": 215,
+                                "inputCls": "textBlack",
+                                "label": "Deposit:",
+                                "labelCls": "normalLabelText",
+                                "labelWidth": "50%",
+                                "value": "0\n",
+                                "designer|userClassName": "MyNumberField22"
+                            },
+                            "customConfigs": [],
+                            "expanded": true
+                        },
+                        {
+                            "id": "ExtBox1-ext-gen98409",
+                            "type": "spacer",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "docked": "left",
+                                "width": 29,
+                                "designer|userClassName": "MySpacer112"
+                            },
+                            "customConfigs": [],
+                            "expanded": true
+                        },
+                        {
+                            "id": "ExtBox1-ext-gen117982",
+                            "type": "label",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "docked": "left",
+                                "height": 45,
+                                "html": "Total Deposit:",
+                                "width": 127,
+                                "designer|userClassName": "MyLabel135"
+                            },
+                            "customConfigs": [],
+                            "expanded": true
+                        },
+                        {
+                            "id": "ExtBox1-ext-gen98417",
+                            "type": "spacer",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "docked": "left",
+                                "width": 53,
+                                "designer|userClassName": "MySpacer112"
+                            },
+                            "customConfigs": [],
+                            "expanded": true
+                        },
+                        {
+                            "id": "ExtBox1-ext-gen98421",
+                            "type": "label",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "docked": "left",
+                                "height": 45,
+                                "html": "0.00 ",
+                                "padding": 5,
+                                "width": 50,
+                                "designer|userClassName": "MyLabel120"
+                            },
+                            "customConfigs": [],
+                            "expanded": true
+                        }
+                    ]
+                },
+                {
+                    "id": "ExtBox1-ext-gen98465",
+                    "type": "container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "height": 5,
+                        "designer|userClassName": "MyContainer62"
+                    },
+                    "customConfigs": [],
+                    "expanded": true
+                },
+                {
+                    "id": "ExtBox1-ext-gen98469",
+                    "type": "container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "height": 45,
+                        "designer|userClassName": "MyContainer58"
+                    },
+                    "customConfigs": [],
+                    "expanded": false,
+                    "cn": [
+                        {
+                            "id": "ExtBox1-ext-gen98473",
+                            "type": "label",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "docked": "left",
+                                "height": 45,
+                                "html": "Amount Financed:",
+                                "padding": 5,
+                                "width": 159,
+                                "designer|userClassName": "MyLabel120"
+                            },
+                            "customConfigs": [],
+                            "expanded": true
+                        },
+                        {
+                            "id": "ExtBox1-ext-gen98477",
+                            "type": "label",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "docked": "left",
+                                "height": 45,
+                                "html": "0.00 ",
+                                "padding": 5,
+                                "width": 67,
+                                "designer|userClassName": "MyLabel120"
+                            },
+                            "customConfigs": [],
+                            "expanded": true
+                        },
+                        {
+                            "id": "ExtBox1-ext-gen98481",
+                            "type": "spacer",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "docked": "left",
+                                "width": 31,
+                                "designer|userClassName": "MySpacer112"
+                            },
+                            "customConfigs": [],
+                            "expanded": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ExtBox1-ext-gen10744",
+            "type": "container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "height": 1,
+                "designer|userClassName": "MyContainer37"
+            },
+            "customConfigs": [],
+            "expanded": true
+        },
+        {
+            "id": "ExtBox1-ext-gen100322",
+            "type": "panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "cls": [
+                    "contentBG"
+                ],
+                "height": 199,
+                "id": "payments",
+                "padding": "",
+                "top": null,
+                "designer|userClassName": "MyPanel35"
+            },
+            "customConfigs": [],
+            "expanded": false,
+            "cn": [
+                {
+                    "id": "ExtBox1-ext-gen100326",
+                    "type": "toolbar",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "cls": [
+                            "topRoundCorners"
+                        ],
+                        "docked": "top",
+                        "ui": "light",
+                        "width": "100%",
+                        "designer|userClassName": "MyToolbar"
+                    },
+                    "customConfigs": [],
+                    "expanded": false,
+                    "cn": [
+                        {
+                            "id": "ExtBox1-ext-gen100330",
+                            "type": "label",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "height": 31,
+                                "html": "Payments:",
+                                "padding": 5,
+                                "width": 369,
+                                "designer|userClassName": "MyLabel"
+                            },
+                            "customConfigs": [],
+                            "expanded": true
+                        }
+                    ]
+                },
+                {
+                    "id": "ExtBox1-ext-gen100337",
+                    "type": "container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "height": 5,
+                        "designer|userClassName": "MyContainer62"
+                    },
+                    "customConfigs": [],
+                    "expanded": true
+                },
+                {
+                    "id": "ExtBox1-ext-gen100341",
+                    "type": "container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "height": 45,
+                        "designer|userClassName": "MyContainer58"
+                    },
+                    "customConfigs": [],
+                    "expanded": false,
+                    "cn": [
+                        {
+                            "id": "ExtBox1-ext-gen128656",
+                            "type": "selectfield",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "cls": [
+                                    "normalRoundCorner"
+                                ],
+                                "docked": "left",
+                                "height": 45,
+                                "width": 275,
+                                "inputCls": "textBlack",
+                                "label": "Payment Frequency:",
+                                "labelCls": "normalLabelText",
+                                "labelWidth": "52%",
+                                "options": "[\n {value:\"Y\",text:\"Yearly\"},\n {value:\"M\",text:\"Monthly\"},\n {value:\"W\",text:\"Weekly\"},\n {value:\"F\",text:\"Fortnightly\"},\n {value:\"Q\",text:\"Quarterly\"},\n {value:\"H\",text:\"Half Yearly\"}  \n]\n",
+                                "designer|userClassName": "MySelectField13"
+                            },
+                            "customConfigs": [],
+                            "expanded": true
+                        },
+                        {
+                            "id": "ExtBox1-ext-gen131324",
+                            "type": "spacer",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "docked": "left",
+                                "width": 13,
+                                "designer|userClassName": "MySpacer112"
+                            },
+                            "customConfigs": [],
+                            "expanded": true
+                        },
+                        {
+                            "id": "ExtBox1-ext-gen100345",
+                            "type": "numberfield",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "cls": [
+                                    "normalRoundCorner"
+                                ],
+                                "docked": "left",
+                                "height": 45,
+                                "width": 225,
+                                "inputCls": "textBlack",
+                                "label": "Term:",
+                                "labelCls": "normalLabelText",
+                                "labelWidth": "58%",
+                                "value": "36",
+                                "designer|userClassName": "MyNumberField20"
+                            },
+                            "customConfigs": [],
+                            "expanded": true
+                        },
+                        {
+                            "id": "ExtBox1-ext-gen100349",
+                            "type": "spacer",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "docked": "left",
+                                "width": 10,
+                                "designer|userClassName": "MySpacer112"
+                            },
+                            "customConfigs": [],
+                            "expanded": true
+                        },
+                        {
+                            "id": "ExtBox1-ext-gen100353",
+                            "type": "numberfield",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "cls": [
+                                    "normalRoundCorner"
+                                ],
+                                "docked": "left",
+                                "height": 45,
+                                "width": 220,
+                                "inputCls": "textBlack",
+                                "label": "Balloon Percentage:",
+                                "labelCls": "normalLabelText",
+                                "labelWidth": "65%",
+                                "designer|userClassName": "MyNumberField21"
+                            },
+                            "customConfigs": [],
+                            "expanded": true
+                        }
+                    ]
+                },
+                {
+                    "id": "ExtBox1-ext-gen100357",
+                    "type": "container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "height": 5,
+                        "designer|userClassName": "MyContainer62"
+                    },
+                    "customConfigs": [],
+                    "expanded": true
+                },
+                {
+                    "id": "ExtBox1-ext-gen136029",
+                    "type": "container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "height": 45,
+                        "designer|userClassName": "MyContainer58"
+                    },
+                    "customConfigs": [],
+                    "expanded": false,
+                    "cn": [
+                        {
+                            "id": "ExtBox1-ext-gen5739",
+                            "type": "numberfield",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "cls": [
+                                    "normalRoundCorner"
+                                ],
+                                "docked": "left",
+                                "height": 45,
+                                "width": 275,
+                                "inputCls": "textBlack",
+                                "label": "Payments:",
+                                "labelCls": "normalLabelText",
+                                "labelWidth": "52%",
+                                "designer|userClassName": "MyNumberField27"
+                            },
+                            "customConfigs": [],
+                            "expanded": true
+                        },
+                        {
+                            "id": "ExtBox1-ext-gen136037",
+                            "type": "spacer",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "docked": "left",
+                                "width": 15,
+                                "designer|userClassName": "MySpacer112"
+                            },
+                            "customConfigs": [],
+                            "expanded": true
+                        },
+                        {
+                            "id": "ExtBox1-ext-gen136041",
+                            "type": "numberfield",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "cls": [
+                                    "normalRoundCorner"
+                                ],
+                                "docked": "left",
+                                "height": 45,
+                                "width": 225,
+                                "inputCls": "textBlack",
+                                "label": "Balloon Amount:",
+                                "labelCls": "normalLabelText",
+                                "labelWidth": "60%",
+                                "designer|userClassName": "MyNumberField20"
+                            },
+                            "customConfigs": [],
+                            "expanded": true
+                        },
+                        {
+                            "id": "ExtBox1-ext-gen136045",
+                            "type": "spacer",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "docked": "left",
+                                "width": 10,
+                                "designer|userClassName": "MySpacer112"
+                            },
+                            "customConfigs": [],
+                            "expanded": true
+                        },
+                        {
+                            "id": "ExtBox1-ext-gen29862",
+                            "type": "label",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "docked": "left",
+                                "height": 45,
+                                "html": "GST on Rental Amount: ",
+                                "padding": 5,
+                                "width": 166,
+                                "designer|userClassName": "MyLabel152"
+                            },
+                            "customConfigs": [],
+                            "expanded": true
+                        },
+                        {
+                            "id": "ExtBox1-ext-gen31918",
+                            "type": "label",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "docked": "left",
+                                "height": 45,
+                                "html": "0.00 ",
+                                "padding": 5,
+                                "designer|userClassName": "MyLabel153"
+                            },
+                            "customConfigs": [],
+                            "expanded": true
+                        }
+                    ]
+                },
+                {
+                    "id": "ExtBox1-ext-gen100413",
+                    "type": "container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "height": 5,
+                        "designer|userClassName": "MyContainer62"
+                    },
+                    "customConfigs": [],
+                    "expanded": true
+                },
+                {
+                    "id": "ExtBox1-ext-gen37215",
+                    "type": "container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "height": 45,
+                        "designer|userClassName": "MyContainer58"
+                    },
+                    "customConfigs": [],
+                    "expanded": false,
+                    "cn": [
+                        {
+                            "id": "ExtBox1-ext-gen37227",
+                            "type": "numberfield",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "cls": [
+                                    "normalRoundCorner"
+                                ],
+                                "docked": "left",
+                                "height": 45,
+                                "width": 238,
+                                "inputCls": "textBlack",
+                                "label": "Maintenance Fee:",
+                                "labelCls": "normalLabelText",
+                                "labelWidth": "60%",
+                                "designer|userClassName": "MyNumberField20"
+                            },
+                            "customConfigs": [],
+                            "expanded": true
+                        },
+                        {
+                            "id": "ExtBox1-ext-gen51404",
+                            "type": "button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "docked": "left",
+                                "height": 40,
+                                "width": 38,
+                                "text": "...",
+                                "designer|userClassName": "MyButton28"
+                            },
+                            "customConfigs": [],
+                            "expanded": true
+                        },
+                        {
+                            "id": "ExtBox1-ext-gen42132",
+                            "type": "spacer",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "docked": "left",
+                                "height": 40,
+                                "width": 16,
+                                "designer|userClassName": "MySpacer112"
+                            },
+                            "customConfigs": [],
+                            "expanded": true
+                        },
+                        {
+                            "id": "ExtBox1-ext-gen100473",
+                            "type": "label",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "docked": "left",
+                                "height": 45,
+                                "html": "Total Payment:",
+                                "padding": 5,
+                                "width": 145,
+                                "designer|userClassName": "MyLabel120"
+                            },
+                            "customConfigs": [],
+                            "expanded": true
+                        },
+                        {
+                            "id": "ExtBox1-ext-gen100469",
+                            "type": "spacer",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "docked": "left",
+                                "width": 10,
+                                "designer|userClassName": "MySpacer112"
+                            },
+                            "customConfigs": [],
+                            "expanded": true
+                        },
+                        {
+                            "id": "ExtBox1-ext-gen100481",
+                            "type": "label",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "docked": "left",
+                                "height": 45,
+                                "html": "0.00 ",
+                                "padding": 5,
+                                "width": 60,
+                                "designer|userClassName": "MyLabel120"
+                            },
+                            "customConfigs": [],
+                            "expanded": true
+                        },
+                        {
+                            "id": "ExtBox1-ext-gen37231",
+                            "type": "spacer",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "docked": "left",
+                                "width": 10,
+                                "designer|userClassName": "MySpacer112"
+                            },
+                            "customConfigs": [],
+                            "expanded": true
+                        },
+                        {
+                            "id": "ExtBox1-ext-gen37235",
+                            "type": "label",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "docked": "left",
+                                "height": 45,
+                                "html": "Weekly Equivalent:",
+                                "padding": 5,
+                                "width": 173,
+                                "designer|userClassName": "MyLabel152"
+                            },
+                            "customConfigs": [],
+                            "expanded": true
+                        },
+                        {
+                            "id": "ExtBox1-ext-gen37239",
+                            "type": "label",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "docked": "left",
+                                "html": "0.00 ",
+                                "padding": 5,
+                                "width": 54,
+                                "designer|userClassName": "MyLabel153"
+                            },
+                            "customConfigs": [],
+                            "expanded": true
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

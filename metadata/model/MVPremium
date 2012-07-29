@@ -1,0 +1,17 @@
+{
+    "id": "ExtBox1-ext-gen30324",
+    "type": "datamodel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "MVPremium",
+        "designer|userAlias": "MVPremium"
+    },
+    "customConfigs": [],
+    "designerId": "4186fbb4-862b-4023-84b4-69642899b701",
+    "$viewOrder": 14,
+    "expanded": true
+}

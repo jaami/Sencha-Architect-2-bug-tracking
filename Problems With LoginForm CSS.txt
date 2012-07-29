@@ -1,0 +1,46 @@
+xtype: 'container',
+	cls: [
+		'textInput'
+	]
+		
+xtype: 'textfield',
+	border: '',
+	cls: [
+		'inputBorder'
+	]
+	
+
+xtype: 'passwordfield',
+	border: '',
+	bottom: '',
+	cls: [
+		'inputBorder'
+	],
+	
+	
+.textInput
+	{ 
+		-webkit-text-fill-color:#000000; /* problem */
+		fontWeight:normal;	/* problem */
+		font-size: 1.5em;
+		border-width:5px;
+		padding:0;
+		-webkit-border-radius: 10px; /* problem */
+		/*-moz-border-image:url("images/border1.png") 20 20 round; 
+		-webkit-border-image:url("images/border1.png") 20 20 round;
+		-o-border-image:url("images/border1.png") 20 20 round; 
+		border-image:url("images/border1.png") 20 20 round;
+		*/
+		-webkit-border-vertical-spacing: 20px; /* problem */
+	}
+	
+	<script type="text/javascript">
+        function myFont () {            
+			var Bold = 'bold';
+            var newFont = document.getElementById ("priceFont");
+            newFont.style.fontWeight = Bold;
+        }
+	</script>
+	
+	
+	

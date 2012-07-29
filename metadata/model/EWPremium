@@ -1,0 +1,17 @@
+{
+    "id": "ExtBox1-ext-gen16285",
+    "type": "datamodel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "EWPremium",
+        "designer|userAlias": "EWPremium"
+    },
+    "customConfigs": [],
+    "designerId": "9d4d7ac3-9c93-428a-bf28-b0ec0db1a90f",
+    "$viewOrder": 7,
+    "expanded": true
+}

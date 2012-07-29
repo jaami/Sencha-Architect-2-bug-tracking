@@ -1,0 +1,74 @@
+{
+    "id": "ExtBox1-ext-gen55635",
+    "type": "tabpanel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "docked": null,
+        "id": null,
+        "styleHtmlContent": true,
+        "ui": "light",
+        "width": null,
+        "modal": false,
+        "designer|userClassName": "MainScreen",
+        "designer|userAlias": "MainScreen",
+        "tabBarPosition": "bottom",
+        "handler": null,
+        "plugins": null
+    },
+    "customConfigs": [
+        {
+            "group": "(Custom Properties)",
+            "name": "tabBarPosition",
+            "type": "string"
+        },
+        {
+            "group": "(Custom Properties)",
+            "name": "handler",
+            "type": "string"
+        },
+        {
+            "group": "(Custom Properties)",
+            "name": "plugins",
+            "type": "string"
+        }
+    ],
+    "designerId": "e4a0673c-0c8a-477d-97d8-593dbaf4a9d8",
+    "$viewOrder": 0,
+    "expanded": false,
+    "cn": [
+        {
+            "id": "ExtBox1-ext-gen13190",
+            "type": "basicfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "initialize",
+                "implHandler": [
+                    "this.callParent(arguments);\r",
+                    "\r",
+                    "this.add([\r",
+                    "{xtype: 'summary'},\r",
+                    "{xtype: 'finance'},\r",
+                    "{xtype: 'asset'},\r",
+                    "{xtype: 'customer'},\r",
+                    "{xtype: 'cci'},\r",
+                    "{xtype: 'cbi'},\r",
+                    "{xtype: 'wty'},\r",
+                    "{xtype: 'mvi'},\r",
+                    "{xtype: 'aftermarket'}\r",
+                    "]);"
+                ],
+                "designer|userClassName": "initialize"
+            },
+            "customConfigs": [],
+            "expanded": true
+        }
+    ]
+}

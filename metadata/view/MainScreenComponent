@@ -1,0 +1,163 @@
+{
+    "id": "ExtBox1-ext-gen19816",
+    "type": "formpanel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "ui": "light",
+        "scrollable": "vertical",
+        "designer|userClassName": "MainScreenComponent",
+        "designer|userAlias": "MainScreenComponent",
+        "iconCls": null,
+        "title": null
+    },
+    "customConfigs": [
+        {
+            "group": "(Custom Properties)",
+            "name": "iconCls",
+            "type": "string"
+        },
+        {
+            "group": "(Custom Properties)",
+            "name": "title",
+            "type": "string"
+        }
+    ],
+    "designerId": "a86ca0dd-7a67-4ca9-a458-c3c589cbfb4d",
+    "$viewOrder": 1,
+    "expanded": false,
+    "cn": [
+        {
+            "id": "ExtBox1-ext-gen19820",
+            "type": "toolbar",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "docked": "top",
+                "height": 80,
+                "ui": "light",
+                "designer|userClassName": "MyToolbar"
+            },
+            "customConfigs": [],
+            "expanded": false,
+            "cn": [
+                {
+                    "id": "ExtBox1-ext-gen23151",
+                    "type": "button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "height": 78,
+                        "width": 145,
+                        "icon": "images/logout.png",
+                        "iconCls": "logout",
+                        "text": "Logout",
+                        "designer|userClassName": "MyButton86",
+                        "action": "LogoutAction"
+                    },
+                    "customConfigs": [
+                        {
+                            "group": "(Custom Properties)",
+                            "name": "action",
+                            "type": "string"
+                        }
+                    ],
+                    "expanded": true
+                },
+                {
+                    "id": "ExtBox1-ext-gen19829",
+                    "type": "button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "cls": null,
+                        "docked": "right",
+                        "width": 145,
+                        "icon": "images/opendeal1.png",
+                        "iconCls": "opendeal",
+                        "text": "Open Deal",
+                        "designer|userClassName": "MyButton",
+                        "action": "OpenDealAction"
+                    },
+                    "customConfigs": [
+                        {
+                            "group": "(Custom Properties)",
+                            "name": "action",
+                            "type": "string"
+                        }
+                    ],
+                    "expanded": true
+                },
+                {
+                    "id": "ExtBox1-ext-gen19834",
+                    "type": "button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "cls": "",
+                        "docked": "right",
+                        "width": 145,
+                        "icon": "images/openquote.png",
+                        "iconCls": "openquote",
+                        "text": "Open Quote",
+                        "designer|userClassName": "MyButton1",
+                        "action": "OpenQuoteAction"
+                    },
+                    "customConfigs": [
+                        {
+                            "group": "(Custom Properties)",
+                            "name": "action",
+                            "type": "string"
+                        }
+                    ],
+                    "expanded": true
+                },
+                {
+                    "id": "ExtBox1-ext-gen19839",
+                    "type": "button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "border": "",
+                        "cls": null,
+                        "docked": "right",
+                        "style": "whiteBorder",
+                        "width": 145,
+                        "icon": "images/newquote.png",
+                        "iconCls": "newquote",
+                        "iconMaskCls": null,
+                        "text": "New Quote",
+                        "designer|userClassName": "MyButton2",
+                        "action": "NewQuoteAction"
+                    },
+                    "customConfigs": [
+                        {
+                            "group": "(Custom Properties)",
+                            "name": "action",
+                            "type": "string"
+                        }
+                    ],
+                    "expanded": true
+                }
+            ]
+        }
+    ]
+}

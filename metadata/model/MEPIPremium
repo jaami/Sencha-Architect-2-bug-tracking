@@ -1,0 +1,17 @@
+{
+    "id": "ExtBox1-ext-gen34379",
+    "type": "datamodel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "MEPIPremium",
+        "designer|userAlias": "MEPIPremium"
+    },
+    "customConfigs": [],
+    "designerId": "e9090e3c-c1ab-4643-ab2e-784627ccf6f7",
+    "$viewOrder": 15,
+    "expanded": true
+}

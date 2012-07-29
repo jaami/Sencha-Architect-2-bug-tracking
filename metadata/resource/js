@@ -1,0 +1,17 @@
+{
+    "id": "ExtBox1-ext-gen6645",
+    "type": "jsresource",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "url": "SwipeTabs.js",
+        "id": 2
+    },
+    "customConfigs": [],
+    "designerId": "c93bbfac-08eb-45db-a43f-fdda6f26b6a5",
+    "$viewOrder": 1,
+    "expanded": true
+}
